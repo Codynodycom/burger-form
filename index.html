@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="form-container">
+        <div class="your-cart-part">
+            <div class="check-title">
+                <label>Your cart</label>
+            </div>
+            <div class="order">
+                <div class="img-wrapper">
+                    <img src="cheeseburger.png" alt="burger">
+                </div>
+                <div class="text-wrapper">
+                    <span >Cheese Burger</span>
+                    <p>Extra Spicy</p>
+                    <p>No mayo</p>
+                </div>
+                <div class="count-wrapper">
+                    <div class="count">
+                        <div class="plus-btn">
+                            <button class="button_plus" onclick="increaseCount()">+</button>
+                        </div>
+                        <div class="digit">2</div>
+                        <div class="minus-btn">
+                            <button class="button_minus" onclick="reduceCount()">-</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="food-price">
+                    <span class="basket-price">$23.99</span>
+                </div>
+            </div>
+        </div>
+        <div class="apply-coupon-part">
+            <div class="apply-header">
+                <span>Apply coupons</span>
+            </div>
+            <div class="input-coupon">
+                <input  id="input-coupon" type="text" placeholder="Apply your coupons here" class="input-field">
+                <button id="apply-coupon" onclick="applyCoupon()" class="apply-button">Apply</button>
+            </div>
+        </div>
+        <div class="checkout-part">
+            <div class="checkout-header">
+                <span>Checkout</span>
+            </div>
+            <div class="details">
+                <span class="check-text">Your cart subtotal:</span>
+                <span class="check-price-subtotal">23.99$</span>
+                <span class="check-text">Discount through applied coupons:</span>
+                <span class="check-price-discount">0$</span>
+                <span class="check-text">Shipping fees:</span>
+                <span class="check-price">4.99$</span>
+            </div>
+            <div class="checkout-footer">
+                <span class="final-price">$28.98</span>
+                <button onclick="handleButtonClick()" class="checkout-button">Checkout</button>
+            </div>
+        </div>
+       
+
+
+
+    </div>
+</body>
+</html>

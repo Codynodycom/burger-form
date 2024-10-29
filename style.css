@@ -1,0 +1,215 @@
+*{
+    font-family: Andale Mono, monospace;
+}
+body{
+    background-color: rgb(117, 95, 38);
+}
+.form-container{
+    width: 400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+.your-cart-part{
+    background-color: white;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding-bottom: 5px;
+}
+.check-title{
+    padding-left: 20px;
+    font-size: 11px;
+    border-bottom: 1px solid #efeff3;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color:rgb(99, 101, 107);
+    font-weight: 700;
+}
+.order{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+.text-wrapper{
+    font-size: 11px;
+}
+.text-wrapper span{
+    font-size: 13px;
+    margin-bottom: 8px;
+    display: flex;
+}
+.text-wrapper p{
+    margin: 0px;
+    color: rgb(122, 124, 129);
+}
+
+.img-wrapper{
+    width: 60px;
+    height: 60px;
+}
+.img-wrapper img{
+    width: 60px;
+    height: 60px;
+}
+.price-count-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.count-wrapper{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.count{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin:0 auto;
+    height: 28px;
+    width: 80px;
+    border: 1px solid #e5e5e5;
+    border-radius: 7px;
+    font-size: 15px;
+    justify-content: space-between;
+}
+.plus-btn{
+    padding-left: 7px;
+}
+.minus-btn{
+    padding-right: 7px;
+}
+.food-price{
+    font-weight: 900;
+    white-space: nowrap;
+}
+.apply-coupon-part{
+    border-radius: 7px;
+    background-color: white;
+    height: 96px;
+}
+.apply-header{
+    padding-left: 20px;
+    font-size: 11px;
+    border-bottom: 1px solid #efeff3;
+    height: 40px;
+    color:rgb(99, 101, 107);
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+.input-coupon{
+    padding: 10px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+.input-coupon .input-field{
+    height: 31px;
+    width: 290px;
+    border-radius: 5px;
+    padding-left:10px;
+    display: flex;
+}
+.input-coupon .apply-button {
+    border-radius: 5px;
+    background-image:linear-gradient(rgb(68, 128, 255) 0%, rgb(17, 93, 252) 50%, rgb(5, 80, 237) 100%);
+    padding: 0;
+    width: 80px;
+    color:white;
+    border:none;
+}
+.checkout-part{
+    background-color: white;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+.checkout-header{
+    padding-left: 20px;
+    font-size: 11px;
+    border-bottom: 1px solid #efeff3;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color:rgb(99, 101, 107);
+    font-weight: 700;
+}
+.details{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap:5px;
+    font-size:11px;
+    padding: 10px;
+    color:rgb(99, 101, 107);
+}
+.check-price, .check-price-subtotal, .check-price-discount {
+    font-size: 13px;
+    color:rgb(71, 72, 75);
+    text-align: right;
+    font-weight: bold;
+}
+.checkout-footer{
+    background-color: rgb(239, 239, 243);
+    padding-top: 10px;  
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+    justify-content: space-between;
+}
+.final-price{
+    font-weight: 900;
+    display:flex;
+    font-size:22px;
+    align-items: center;
+}
+.checkout-button{
+    border-radius: 5px;
+    background-image:linear-gradient(rgb(68, 128, 255) 0%, rgb(17, 93, 252) 50%, rgb(5, 80, 237) 100%);
+    padding: 0;
+    width: 150px;
+    color:white;
+    border:none;
+}
+button{
+    cursor: pointer;
+}
+button:active{
+    transform: translate(3px,3px);
+}
+
+.disable {
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+    height: 96px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.disable-button {
+    border-radius: 5px;
+    background-image:linear-gradient(rgb(206, 206, 206) 0%, rgb(130, 130, 130) 50%, rgb(71, 71, 71) 100%);
+    padding: 0;
+    width: 80px;
+    color:white;
+    border:none;
+}
+
+.disable-input {
+    height: 31px;
+    width: 290px;
+    border-radius: 5px;
+    padding-left:10px;
+    display: flex;
+    background-color: #a1a1a1;
+    color: white;
+}
